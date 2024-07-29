@@ -67,3 +67,6 @@ body {
   background-color: #ff0060;
   color: #ffffff;
 }
+.wrapper .btn-con .row .key:focus {
+  background: #ccc;
+}
