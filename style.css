@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Caacadia Code", sans-serif;
+  outline: none;
+  border: none;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: rgb(34, 192, 195, 0.644);
+  background: linear-gradient(
+    0deg,
+    rgba(34, 192, 195, 1),
+    rgba(253, 180, 45, 0.705)
+  );
+}
+.wrapper {
+  height: 440px;
+  width: 332px;
+  background: rgba(255, 255, 255, 0.5);
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  padding: 20px;
+  backdrop-filter: blur(50px);
+}
+.wrapper #input_box {
+  width: 100%;
+  height: 70px;
+  font-size: 30px;
+  text-align: right;
+  padding: 0 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  font-weight: 600;
+  color: #6c9bcf;
+}
+.wrapper .btn-con {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+  width: 100%;
+}
+.wrapper .btn-con .row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 25px;
+}
+.wrapper .btn-con .row .key {
+  width: 50px;
+  height: 50px;
+  font: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+  transition: scale 0.3s ease;
+}
+.wrapper .btn-con .row .key:last-child {
+  background-color: #ff0060;
+  color: #ffffff;
+}
